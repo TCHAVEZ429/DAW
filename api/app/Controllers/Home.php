@@ -8,7 +8,11 @@ class Home extends BaseController
 {
     protected $db;
 
-    
+     public function index(): string
+    {
+        return view('welcome_message');
+    } 
+	
     public function prueba()
     {
 
